@@ -204,6 +204,12 @@ margin-top: 35px;
     display: flex;
     align-items: center;
 }
+.hotels_inner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 .hotels_h{
     margin-top: 50px;
     font-size: 35px;
@@ -253,11 +259,108 @@ display: inline-block;
 .block_hotel_img{
    display: flex;
    justify-content: space-between;
-   margin-left: 100px;
 }
 .hotel_mask_group{
     width: 360px;
     height: 350px;
     margin: 30px;
   
+}
+.actual_tours_inner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card_actual_tours{
+    width: 327px;
+   margin: 30px;
+   background: #F8F8F8;
+}
+.banner_actual_tours{
+    margin-top: 15px;   
+    position: absolute;
+    width: 195px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #FFFFFF;
+    padding: 15px 3px 3px 13px;
+}
+.heading_actual_tours{
+    font-size: 20px;
+    color: #323232;
+    height: 49px;
+    
+}
+.block_headind_actual_tours{
+    padding: 15px;
+}
+.description_actual_tours{
+    margin-top: 29px;
+    height: 66px;
+    font-size: 16px;
+    color: #848484;
+    font-family: "Open Sans";
+}
+.actual_line{
+    width: 280px;
+    height: 1px;
+    background: #E8E8E8;
+    margin-top: 26px;
+}
+.price{
+    display: flex;
+}
+.actual_price{
+    font-size: 26px;
+    color: #DD4053;
+    margin-top: 23px;
+}
+.under_text_price{
+    font-size: 12px;
+    color: #C9C9C9;
+}
+.date{
+    margin-left: 222px;
+    margin-top: -32px;
+    color: #3E3E3E;
+    font-size: 12px;
+}
+.search_inner{
+    display: flex;
+}
+.main_block{
+width: 1042px;
+height: 140px;
+background: #F8F8F8;
+border-top: 6px  #969696 solid;
+margin: 0 auto;
+display: flex;
+}
+.second_main_search_block{
+    display: flex;
+}
+.block_button{
+    width: 133px;
+    height: 140px;
+    border: 1px black solid;
+}
+.text_block_button{
+    margin-left: 5px;
+}
+
+.title{
+    display: flex;
+}
+.button_search{
+    width: 103px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    padding: left;
+}
+.block_button_2{
+    width: 213px;
+    width: 50px;
+border: 1px black solid
 }
